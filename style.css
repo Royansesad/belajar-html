@@ -4,12 +4,25 @@
 
 /*HEADER*/
 .hero{
-    background-color: #1abc9c;
-    color: white;
-    padding: 80px;
+    /*background-color: #1abc9c;*/
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('https://cdn.discordapp.com/attachments/1357564599787982960/1403015585620693092/NPC_Asat_Pramad2.png?ex=68ae6756&is=68ad15d6&hm=06fb77d5cd7cc9ca3b016ade43a3c319dc7b9ec4c1030bca8d9375b80bb8c1cc');
+    background-size: cover;
+    background-position: 0px -65px; 
+    color: rgb(255, 255, 255);
+    padding: 100px;
     text-align: center;
 }
 
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 0;
+}
+/*NAVBAR*/
 .navbar {
     display: flex;
     justify-content: center;
