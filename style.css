@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center; 
     color: rgb(255, 255, 255);
-    padding: 100px;
+    padding: 150px;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@
 
 .navbar a:hover {
     background-color: #00b806;
-    /*background-color: #dddddd;*/
+    /*    background-color: #dddddd;*/
     color: black;
 }
 
@@ -60,3 +60,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/*=====MAIN CONTENT=====*/
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*Main Coloum*/
+.main {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
