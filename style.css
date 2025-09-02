@@ -6,9 +6,9 @@
 .hero{
     /*background-color: #1abc9c;*/
     background-color: rgba(0, 0, 0, 0.5);
-    background-image: url('https://cdn.discordapp.com/attachments/1357564599787982960/1403015585620693092/NPC_Asat_Pramad2.png?ex=68ae6756&is=68ad15d6&hm=06fb77d5cd7cc9ca3b016ade43a3c319dc7b9ec4c1030bca8d9375b80bb8c1cc');
+    background-image: url('https://c.tenor.com/j7JAKCPebRwAAAAC/tenor.gif');
     background-size: cover;
-    background-position: 0px -65px; 
+    background-position: center; 
     color: rgb(255, 255, 255);
     padding: 100px;
     text-align: center;
@@ -24,29 +24,39 @@
 }
 /*NAVBAR*/
 .navbar {
+    position: relative;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 10px;
 }
 
 .navbar a {
+    display: block;
     padding: 14px 20px;
     color: white;
     text-decoration: none;
     text-align: center;
+    transition: background 0.2s, color 0.2s;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #00b806;
+    /*background-color: #dddddd;*/
     color: black;
 }
 
-.navbar a.active {
+/*.navbar a.active {
     background-color: #4CAF50;
     color: white;
-}
+}*/
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
